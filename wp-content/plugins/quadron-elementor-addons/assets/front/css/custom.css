@@ -1,0 +1,152 @@
+/*
+* Custom CSS
+*
+*/
+
+
+
+/* ELEMENTOR CUSTOM COLUMN STRUCTURE */
+.nt-structure .elementor-row {
+    flex-wrap: wrap;
+}
+@media (min-width: 768px){
+    .nt-col-25 .elementor-row .elementor-column{
+        width: 25%;
+    }
+    .nt-col-33 .elementor-row .elementor-column{
+        width: 33.333%;
+    }
+    .nt-col-50 .elementor-row .elementor-column{
+        width: 50%;
+    }
+}
+.elementor-widget:not(:last-child) {
+    margin-bottom: 0px;
+}
+/* END ELEMENTOR CUSTOM COLUMN STRUCTURE */
+
+
+/* ELEMENT INTEGRATE TO ELEMENTOR  */
+.uppercase {
+    text-transform: uppercase;
+}
+.font-icon.icon-white i {
+    color: #fff;
+}
+.font-icon i {
+    font-size: 80px;
+}
+.list-menu__icon i {
+    font-size: 48px;
+}
+.mainSlider-social-icon li a,
+.team-item__img .social-icon li a,
+.promobox-slider__layout .social-icon li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.promo-cart__icon i {
+    font-size: 80px;
+    color: #2e3192;
+}
+.promo-cart:hover .promo-cart__icon i{
+    color: #fff;
+}
+.masonry-layout-01 .grid-col-2 .element-item {
+    width: 50%;
+}
+.masonry-layout-01 .grid-col-4 .element-item {
+    width: 25%;
+}
+.elementor-widget-container .team-item {
+    padding: 0px;
+}
+.services-four-icon i {
+    font-size: 42px;
+    color: #2e3192;
+}
+.elementor a.promobox02 {
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 13px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 3px 14px rgba(17, 19, 91, 0.2);
+    box-shadow: 0px 3px 14px rgba(17, 19, 91, 0.2);
+    -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+.elementor a.promobox02:hover {
+    -webkit-box-shadow: 0px 3px 15px rgba(4, 8, 117, 0.7);
+    box-shadow: 0px 3px 15px rgba(4, 8, 117, 0.7);
+}
+.layout-color-01 .form-group .placeholder-label {
+    color: #ffffff;
+}
+/* button */
+.btn.videolink {
+    display: inline-flex;
+}
+.btn.btn-lg {
+    padding: 25px 80px 25px;
+    font-size: 18px;
+    height: auto;
+    border-radius: 50px;
+}
+.btn.btn-sm {
+    padding: 15px 20px 15px;
+    font-size: 14px;
+    height: auto;
+}
+a.btn.btn-square {
+    border-radius: 0;
+}
+.btn.btn-round {
+    border-radius: 5px;
+}
+.btn-justify a.btn {
+    display: flex;
+}
+.btn.btn-icon-right i {
+    margin-left: 8px;
+}
+.btn.btn-icon-left i {
+    margin-right: 8px;
+}
+/* END ELEMENT INTEGRATE TO ELEMENTOR  */
+
+
+/* RESPONSIVE MEDIA */
+@media (min-width: 1230px){
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1170px;
+    }
+    .mainSlider .slide .slide-content .slide-layout-03.text-right .slide-description {
+        margin-right: 0;
+        margin-left: auto;
+    }
+}
+@media (min-width: 791px){
+    .layout-external-box .col-title.col-w-72 {
+        width: 72%;
+    }
+}
+@media (max-width: 576px){
+
+}
+@media (max-width: 789px){
+    .promobox03 {
+        margin-bottom: 30px;
+    }
+    .sm-hide-bg{
+        background-image: none!important;
+    }
+}
+@media (max-width: 992px){
+
+}
+/* END RESPONSIVE MEDIA */

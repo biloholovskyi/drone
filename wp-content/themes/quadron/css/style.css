@@ -22150,3 +22150,9 @@ body.mfp-zoom-out-cur:not(.touch) #top-bar {
     right: 17px;
     width: calc(100% - 17px);
 }
+
+body.elementor-panel-loading #elementor-panel-state-loading {
+    display: none!important;
+    position: static;
+}
+
